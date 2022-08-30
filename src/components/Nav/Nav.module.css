@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 1em 3em;
+    background-color: rgb(163, 74, 247);
+}
+
+.nav__left{
+    font-size: 1.5rem;
+    color: rgb(31, 219, 233)
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(73, 221, 231);
+}
+
+.nav__right p{
+    cursor: pointer;
+}
+
+.nav__right p:last-child{
+    background-color: rgb(20, 208, 221);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 0.2em 0.8em;
+}
+
+.nav__right p:hover{
+    color: rgb(234, 246, 247);
+}
+
+.nav__right p:last-child:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}

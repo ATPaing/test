@@ -1,0 +1,7 @@
+.greeting_quote{
+    width: max-content;
+    margin-inline: auto;
+    margin-top: 3em;
+    font-size: 3rem;
+    color: #242121;
+}
